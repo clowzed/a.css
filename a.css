@@ -1,75 +1,243 @@
 /*
-
 author     : Miasnenko Dmitry <clowzed.work@gmail.com>
 started at : 12 august 2022
 github     : https://github.com/clowzed/a.css
-
-Description
-    a.css is a classless css framework for using
-    with simple documents. Just makes your site sceleton
-    look a bit nicier.
-
 */
 
-
 * {
-    color        :   #000000;
+    color        :   #000;
     margin       :   0;
     padding      :   0;
-    border       :   1px solid red;
     box-sizing   :   border-box;
-    font-family  :   system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family  :   "PT Mono"
+;
 }
 
 html {
-    background-color  :   #fff8e9;
+    background-color  :   #fff8e9
+;
 }
 
 body {
-    width   :   60%;
-    margin  :   0 auto;
+    width    :   60%;
+    margin   :   0 auto;
+    padding  :   1%
+;
 }
 
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    padding               :   0.33%;
+h1, h2, h3, h4, h5, h6 {
+    padding               :   .33%;
     text-decoration-line  :   underline;
     margin-bottom         :   1%;
-    margin-top            :   2%;
+    margin-top            :   2%
+;
+}
+
+hr, img {
+    border  :   0
+;
 }
 
 img {
     display  :   block;
     width    :   100;
-    padding  :   1%;
-    border   :   1px solid black;
+    margin   :   1% 1% 1%0
+;
 }
 
 a {
-    padding          :   1%;
     text-decoration  :   underline;
     color            :   red;
-    font-weight      :   800;
+    font-weight      :   800
+;
+}
+
+a, div, img, p {
+    padding  :   1%
+;
+}
+
+dl, ol, p, pre, ul {
+    border-radius  :   4px
+;
 }
 
 p {
-    line-height  :   1.5em;
-    margin-top   :   6%;
+    line-height    :   1.5em;
+    margin-top     :   6%;
+    display        :   inline-block;
+    margin-bottom  :   6%
+;
 }
 
 hr {
-    margin  :   2% 0;
+    border-bottom  :   1px solid #000;
+    margin         :   6%0
+;
 }
 
 strong {
-    font-weight  :   1000;
+    font-weight  :   1000
+;
 }
 
-em {
-    font-weight  :   600;
+dt, em {
+    font-weight  :   600
+;
+}
+
+dl, ol, ul {
+    border   :   1px solid #000;
+    padding  :   2%;
+    margin   :   0 auto
+;
+}
+
+dt {
+    margin-top  :   1.5%
+;
+}
+
+dd {
+    text-indent  :   1em
+;
+}
+
+ol, ul {
+    list-style     :   none;
+    margin-top     :   6%;
+    margin-bottom  :   6%
+;
+}
+
+ol li::before, ul li::before {
+    color        :   #000;
+    font-weight  :   700;
+    display      :   inline-block;
+    width        :   1em;
+    margin-left  :   -1em
+;
+}
+
+dd, li {
+    margin  :   .5%auto
+;
+}
+
+form, p, pre, table, td {
+    border  :   1px solid #000
+;
+}
+
+form {
+    padding        :   2%;
+    border-radius  :   4px
+;
+}
+
+div {
+    margin  :   1%
+;
+}
+
+input {
+    border  :   1px solid orange
+;
+}
+
+button, input, textarea {
+    font-family    :   inherit;
+    font-size      :   inherit;
+    line-height    :   inherit;
+    margin-top     :   1%;
+    padding        :   1%;
+    border-radius  :   4px
+;
+}
+
+button, input {
+    background-color  :   inherit
+;
+}
+
+textarea {
+    margin-bottom  :   1%
+;
+}
+
+label, select {
+    padding  :   1% 1% 1%0
+;
+}
+
+label {
+    margin  :   1%auto 1.5%0
+;
+}
+
+select, textarea {
+    border  :   1px solid orange
+;
+}
+
+select {
+    font-family       :   inherit;
+    font-size         :   inherit;
+    line-height       :   inherit;
+    background-color  :   inherit
+;
+}
+
+button, input[type=button], input[type=reset], input[type=submit] {
+    border  :   3px solid orange
+;
+}
+
+table, td {
+    padding  :   1%
+;
+}
+
+select, table {
+    border-radius  :   4px;
+    margin         :   1% 1% 1%0
+;
+}
+
+td {
+    margin  :   4%
+;
+}
+
+abbr, acronym, dt, sub, sup {
+    color  :   orange
+;
+}
+
+code, pre {
+    color  :   gray
+;
+}
+
+pre {
+    padding  :   1%;
+    display  :   inline-block;
+    margin   :   6% 1% 1%0
+;
+}
+
+code {
+    background-color  :   #fff;
+    border            :   1px solid #000;
+    border-radius     :   4px;
+    padding           :   .5% 1%;
+    margin            :   2% 2% 2%0
+;
+}
+
+blockquote {
+    padding      :   2%;
+    margin       :   6% 1% 1%;
+    border-left  :   2px solid orange
+;
 }
