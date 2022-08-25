@@ -3,8 +3,6 @@
 ## What
 This a simple `classless` css framework for making your website look a bit nicer.
 
-I wrote it for myself for simple pages describing something. It `was not made to be responsive` and `does not cover all tags` but still makes simple page look beautiful.
-
 ## Requirements
 - Installed `PT Mono` font
 
