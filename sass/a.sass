@@ -1,0 +1,88 @@
+@import "pallets/light.sass"
+@import "constants"
+@import "modules/typography"
+@import "modules/table"
+@import "modules/lists"
+@import "modules/progress"
+
+*
+    color: $text-color
+    box-sizing: border-box
+    font-family: "PT Mono", "Courier New"
+
+html
+    background-color: $background-color
+
+body
+    width: $body-width
+    margin: $central-align
+    padding: $default-padding
+
+img
+    border: 0
+    display: block
+    width: 100
+    margin: $default-margin 0
+    padding: $default-padding 0
+
+div
+    padding: 0
+    margin: 0
+
+hr
+    border: none
+    border-bottom: $default-border
+    margin: $default-margin 0
+
+form
+    border: $default-border
+    padding: $default-padding
+    border-radius: $default-border-radius
+
+button, input, textarea
+    font-family: inherit
+    font-size: inherit
+    line-height: inherit
+    margin: $default-margin 0
+    padding: calc($default-padding / 2)
+    border-radius: $default-border-radius
+    display: block
+
+textarea
+    margin-bottom: $default-margin
+    border: $colored-border
+    border-width: 3px
+
+label
+    padding: $default-padding 0
+    margin: $default-border
+
+select
+    font-family: inherit
+    font-size: inherit
+    background-color: inherit
+    border: $colored-border
+    border-radius: $default-border-radius
+    margin: $default-margin
+    padding: calc($default-padding / 3)
+
+button, input, input[type=button], input[type=reset], input[type=submit]
+    background-color: inherit
+    border: 3px solid $custom-border-color
+
+object
+    display: inline-block
+    padding: $default-padding 0
+
+footer
+    margin: $default-margin 0
+    padding: $default-padding 0
+
+time
+    text-decoration: underline
+    font-weight: bold
+    color: $other-color    
+
+fieldset
+    border: none
+    padding: calc($default-padding + 3px)

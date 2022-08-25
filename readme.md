@@ -9,7 +9,7 @@ I wrote it for myself for simple pages describing something. It `was not made to
 - Installed `PT Mono` font
 
 ## Installation
-Past this to your html page 
+Paste this to your html page 
 ```html
 <link rel = "stylesheet" href = "">
 ```
