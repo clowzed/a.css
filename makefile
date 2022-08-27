@@ -16,3 +16,6 @@ minify:
 	@cleancss -O2 ./build/a.css > ./build/a.min.css
 	@echo Done! Minified file is ./build/a.min.css
 
+publish:
+	git commit -am "New build"
+	git push origin master
