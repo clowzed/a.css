@@ -11,6 +11,12 @@
     <h2><a href="https://a-css.surge.sh">demo page</a></h2>
 </div>
 <div align = "center">
+    <h1>Requirements</h1>
+</div>
+
+You need to install `PT Mono` font for better experience
+
+<div align = "center">
     <h1>Installation</h1>
 </div>
 
