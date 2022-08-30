@@ -21,7 +21,7 @@ body
 img
     border: 0
     display: block
-    width: 100
+    width: 100%
     margin: $default-margin 0
     padding: $default-padding 0
 
@@ -39,11 +39,11 @@ form
     padding: $default-padding
     border-radius: $default-border-radius
 
-button, input, textarea
+button, input, input[type=button], textarea
     font-family: inherit
     font-size: inherit
     line-height: inherit
-    margin: $default-margin 0
+    margin: calc($default-margin/2) 0
     padding: calc($default-padding / 2)
     border-radius: $default-border-radius
     display: block
@@ -54,8 +54,12 @@ textarea
     border-width: 3px
 
 label
-    padding: $default-padding 0
-    margin: $default-border
+    padding: $default-padding
+    margin: $default-margin
+    padding-left: 0
+    padding-bottom: calc($default-padding / 3)
+    margin-bottom: calc($default-margin / 3)
+    margin-left: 0
 
 select
     font-family: inherit
@@ -65,8 +69,10 @@ select
     border-radius: $default-border-radius
     margin: $default-margin
     padding: calc($default-padding / 3)
+    padding-left: 0
+    margin-left: 0
 
-button, input, input[type=button], input[type=reset], input[type=submit]
+button, input, input[type=reset], input[type=submit]
     background-color: inherit
     border: 3px solid $custom-border-color
 
@@ -81,7 +87,7 @@ footer
 time
     text-decoration: underline
     font-weight: bold
-    color: $other-color    
+    color: $other-color
 
 fieldset
     border: none

@@ -26,20 +26,20 @@ p {
 pre {
   margin: 2rem 0;
   padding: 1rem;
-  display: inline-block 0;
+  padding-left: 0;
+  display: inline-block;
   color: #7D9D9C;
-  word-wrap: word;
-  border: 1px solid #EF8A84;
-  border-radius: 4px;
+  word-wrap: break-word;
 }
 
 code {
   background-color: #081012;
+  padding-left: 0;
   border: 1px solid #EF8A84;
   border-radius: 4px;
   margin: 2rem 0;
   padding: 1rem;
-  display: block;
+  display: inline-block;
   white-space: pre;
   color: #FFF3EB;
 }
@@ -101,19 +101,19 @@ output {
 }
 
 kbd {
-  margin: 0px 0.1em;
+  margin: 0 0.1em;
   padding: 0.1em 0.6em;
   border-radius: 3px;
   border: 1px solid rgb(204, 204, 204);
   color: rgb(51, 51, 51);
   line-height: 1.4;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 10px;
+  font-size: 12px;
   display: inline-block;
-  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2), inset 0px 0px 0px 2px #ffffff;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 2px #ffffff;
   background-color: rgb(247, 247, 247);
-  -moz-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2), 0 0 0 2px #ffffff inset;
-  -webkit-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2), 0 0 0 2px #ffffff inset;
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 2px #ffffff inset;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 2px #ffffff inset;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   text-shadow: 0 1px 0 #fff;
@@ -155,14 +155,21 @@ th {
 }
 
 ol, ul {
-  list-style: none;
-  list-style-type: circle;
   border: 1px solid #EF8A84;
   border-radius: 4px;
-  padding: 1rem 2rem;
   margin: 2rem;
   margin-left: 0;
   display: inline-block;
+}
+
+ul {
+  list-style-type: circle;
+  padding: 1rem 2rem;
+}
+
+ol {
+  list-style: decimal inside none;
+  padding: 1rem;
 }
 
 dl {
@@ -170,6 +177,7 @@ dl {
   border-radius: 4px;
   margin: 2rem 0;
   padding: 1rem;
+  display: inline-block;
 }
 
 dt {
@@ -209,7 +217,7 @@ body {
 img {
   border: 0;
   display: block;
-  width: 100;
+  width: 100%;
   margin: 2rem 0;
   padding: 1rem 0;
 }
@@ -231,11 +239,11 @@ form {
   border-radius: 4px;
 }
 
-button, input, textarea {
+button, input, input[type=button], textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
-  margin: 2rem 0;
+  margin: 1rem 0;
   padding: 0.5rem;
   border-radius: 4px;
   display: block;
@@ -248,8 +256,12 @@ textarea {
 }
 
 label {
-  padding: 1rem 0;
-  margin: 1px solid #EF8A84;
+  padding: 1rem;
+  margin: 2rem;
+  padding-left: 0;
+  padding-bottom: 0.3333333333rem;
+  margin-bottom: 0.6666666667rem;
+  margin-left: 0;
 }
 
 select {
@@ -260,9 +272,11 @@ select {
   border-radius: 4px;
   margin: 2rem;
   padding: 0.3333333333rem;
+  padding-left: 0;
+  margin-left: 0;
 }
 
-button, input, input[type=button], input[type=reset], input[type=submit] {
+button, input, input[type=reset], input[type=submit] {
   background-color: inherit;
   border: 3px solid #EF8A84;
 }
