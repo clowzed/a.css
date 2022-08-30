@@ -1,10 +1,5 @@
 
-all: clean build minify 
-
-clean:
-	@echo Removing build directory...
-	@rm -rf ./build
-	@echo Build directory was sucessfully removed!
+all: build minify 
 
 build:
 	@echo Compiling sass sources...
@@ -17,7 +12,6 @@ minify:
 	@cleancss -O2 ./a.css > ./a.min.css
 	@echo Done! Minified file is ./a.min.css
 
-publish: clean build minify
-	git commit -am "New build"
+publish: build minify
 	git push origin master
 	surge
