@@ -8,6 +8,7 @@
     <h1>About</h1>
     <p>This is classless css framework for making your site look nicier. This was not written to be responsive and was built for my personal projects. Usually for static pages describing something.
     That was my first try with <strong>sass</strong>.</p>
+    <h2><a href="https://a-css.surge.sh">demo page</a></h2>
 </div>
 <div align = "center">
     <h1>Installation</h1>
