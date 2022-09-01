@@ -22,7 +22,7 @@ You need to install `PT Mono` font for better experience
 
 Place this into your head tag
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/clowzed/a.css@0.0.1/a.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/clowzed/a.css@release/a.min.css">
 ```
 
 <div align = "center">
