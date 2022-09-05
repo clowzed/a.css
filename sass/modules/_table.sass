@@ -2,6 +2,7 @@ table
     border: $default-border
     padding: $default-padding 
     border-radius: $default-border-radius
+    width: 100%
 tfoot
     border-top: $colored-border 
     padding: $default-padding
@@ -19,3 +20,17 @@ td
 th
     border-bottom: $colored-border
     padding: 0.5rem
+
+
+table 
+    counter-reset: rowNumber
+
+table tr:not(:first-child) 
+    counter-increment: rowNumber
+
+
+
+table[class=count] tr td:first-child::before 
+    content: counter(rowNumber)
+    min-width: 1em
+    margin-right: 2em

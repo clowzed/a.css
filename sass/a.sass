@@ -1,4 +1,4 @@
-@import "pallets/light.sass"
+@import "pallets/pallete"
 @import "constants"
 @import "modules/typography"
 @import "modules/table"
@@ -6,12 +6,12 @@
 @import "modules/progress"
 
 *
-    color: $text-color
+    color: $color-2
     box-sizing: border-box
     font-family: "PT Mono", "Courier New"
 
 html
-    background-color: $background-color
+    background-color: $color-1
 
 body
     width: $body-width
@@ -38,8 +38,22 @@ form
     border: $default-border
     padding: $default-padding
     border-radius: $default-border-radius
+    display: inline-block
+    align-items: center
 
-button, input, input[type=button], textarea
+button, input[type=button]
+    display: inline-block
+    border: 3px solid $color-3
+    border-radius: $default-border-radius
+    font-size: inherit
+    font-weight: bold
+    color: $color-2
+    background-color: $color-3
+    padding: calc($default-padding / 4)
+    margin-left: 0
+    margin-top: calc($default-margin / 2)
+
+input, textarea
     font-family: inherit
     font-size: inherit
     line-height: inherit
@@ -65,16 +79,16 @@ select
     font-family: inherit
     font-size: inherit
     background-color: inherit
-    border: $colored-border
+    border: $default-border
     border-radius: $default-border-radius
     margin: $default-margin
     padding: calc($default-padding / 3)
     padding-left: 0
     margin-left: 0
 
-button, input, input[type=reset], input[type=submit]
+input, input[type=reset], input[type=submit]
     background-color: inherit
-    border: 3px solid $custom-border-color
+    border: 3px solid $color-3
 
 object
     display: inline-block
@@ -87,7 +101,7 @@ footer
 time
     text-decoration: underline
     font-weight: bold
-    color: $other-color
+    color: $color-3
 
 fieldset
     border: none
