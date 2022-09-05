@@ -1,343 +1,330 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    padding               :   1rem;
-    text-decoration-line  :   underline;
-    margin                :   2rem;
-    margin-left           :   0;
-    padding-left          :   0;
-    margin-bottom         :   0;
+h1, h2, h3, h4, h5, h6 {
+  padding: 1rem;
+  text-decoration-line: underline;
+  margin: 2rem;
+  margin-left: 0;
+  padding-left: 0;
+  margin-bottom: 0;
 }
 
 a {
-    text-decoration  :   underline;
-    color            :   #EF8A84;
-    font-weight      :   800;
-    padding          :   1rem;
+  text-decoration: underline;
+  color: #EF8A84;
+  font-weight: 800;
+  padding: 1rem;
 }
 
 p {
-    line-height    :   1.5em;
-    margin         :   2rem 0;
-    display        :   block;
-    padding        :   1rem;
-    border-radius  :   4px;
-    border         :   3px solid #ddd3bf;
+  line-height: 1.5em;
+  margin: 2rem 0;
+  display: block;
+  padding: 1rem;
+  border-radius: 4px;
+  border: 3px solid #ddd3bf;
 }
 
 pre {
-    display    :   inline-block;
-    word-wrap  :   break-word;
-    width      :   100%;
+  display: inline-block;
+  word-wrap: break-word;
+  width: 100%;
 }
 
 code {
-    background-color  :   inherit;
-    padding-left      :   0;
-    border            :   3px solid #ddd3bf;
-    border-radius     :   4px;
-    display           :   inline-block;
-    color             :   black;
-    white-space       :   pre;
-    margin-top        :   2rem;
-    padding           :   1rem;
-    width             :   100%;
+  background-color: inherit;
+  padding-left: 0;
+  border: 3px solid #ddd3bf;
+  border-radius: 4px;
+  display: inline-block;
+  color: black;
+  white-space: pre;
+  margin-top: 2rem;
+  padding: 1rem;
+  width: 100%;
 }
 
 blockquote {
-    padding            :   1rem;
-    margin             :   2rem;
-    border-left        :   3px solid #EF8A84;
-    border-left-width  :   3px;
-    margin-left        :   0;
+  padding: 1rem;
+  margin: 2rem;
+  border-left: 3px solid #EF8A84;
+  border-left-width: 3px;
+  margin-left: 0;
 }
 
-abbr,
-acronym {
-    color  :   #EF8A84;
+abbr, acronym {
+  color: #EF8A84;
 }
 
-sub,
-sup {
-    color            :   black;
-    text-decoration  :   none;
-    font-weight      :   bold;
+sub, sup {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 em {
-    font-weight  :   bold;
+  font-weight: bold;
 }
 
 strong {
-    font-weight  :   bold;
+  font-weight: bold;
 }
 
 data {
-    color        :   #EF8A84;
-    font-weight  :   bold;
+  color: #EF8A84;
+  font-weight: bold;
 }
 
 var {
-    color        :   #EF8A84;
-    font-weight  :   bold;
+  color: #EF8A84;
+  font-weight: bold;
 }
 
 cite {
-    color        :   #EF8A84;
-    font-weight  :   bold;
+  color: #EF8A84;
+  font-weight: bold;
 }
 
 samp {
-    color        :   #EF8A84;
-    font-weight  :   bold;
+  color: #EF8A84;
+  font-weight: bold;
 }
 
 dfn {
-    color        :   #EF8A84;
-    font-weight  :   bold;
+  color: #EF8A84;
+  font-weight: bold;
 }
 
 details p {
-    display    :   block;
-    max-width  :   100%;
+  display: block;
+  max-width: 100%;
 }
 
 output {
-    color        :   #EF8A84;
-    font-weight  :   bold;
+  color: #EF8A84;
+  font-weight: bold;
 }
 
 kbd {
-    margin         :   0 0.05em;
-    padding        :   0.05em 0.6em;
-    margin-left    :   0.05em;
-    margin-right   :   0.05em;
-    border-radius  :   3px;
-    border         :   1px solid black;
-    color          :   black;
-    line-height    :   1.4;
+  margin: 0 0.05em;
+  padding: 0.05em 0.6em;
+  margin-left: 0.05em;
+  margin-right: 0.05em;
+  border-radius: 3px;
+  border: 1px solid black;
+  color: black;
+  line-height: 1.4;
 }
 
 mark {
-    background-color  :   inherit;
-    color             :   #EF8A84;
+  background-color: inherit;
+  color: #EF8A84;
 }
 
 table {
-    border         :   3px solid #ddd3bf;
-    padding        :   1rem;
-    border-radius  :   4px;
-    width          :   100%;
+  border: 3px solid #ddd3bf;
+  padding: 1rem;
+  border-radius: 4px;
+  width: 100%;
 }
 
 tfoot {
-    border-top  :   3px solid #EF8A84;
-    padding     :   1rem;
+  border-top: 3px solid #EF8A84;
+  padding: 1rem;
 }
 
 tbody {
-    padding      :   1rem 0;
-    margin       :   2rem 0;
-    border-left  :   3px solid #EF8A84;
+  padding: 1rem 0;
+  margin: 2rem 0;
+  border-left: 3px solid #EF8A84;
 }
 
 tr {
-    padding  :   0.5rem;
+  padding: 0.5rem;
 }
 
 td {
-    padding  :   0.5rem;
+  padding: 0.5rem;
 }
 
 th {
-    border-bottom  :   3px solid #EF8A84;
-    padding        :   0.5rem;
+  border-bottom: 3px solid #EF8A84;
+  padding: 0.5rem;
 }
 
 table {
-    counter-reset  :   rowNumber;
+  counter-reset: rowNumber;
 }
 
 table tr:not(:first-child) {
-    counter-increment  :   rowNumber;
+  counter-increment: rowNumber;
 }
 
 table[class=count] tr td:first-child::before {
-    content       :   counter(rowNumber);
-    min-width     :   1em;
-    margin-right  :   2em;
+  content: counter(rowNumber);
+  min-width: 1em;
+  margin-right: 2em;
 }
 
-ol,
-ul {
-    border         :   3px solid #ddd3bf;
-    border-radius  :   4px;
-    margin         :   2rem;
-    margin-left    :   0;
-    display        :   inline-block;
+ol, ul {
+  border: 3px solid #ddd3bf;
+  border-radius: 4px;
+  margin: 2rem;
+  margin-left: 0;
+  display: inline-block;
 }
 
 ul {
-    list-style-type  :   circle;
-    padding          :   1rem 2rem;
+  list-style-type: circle;
+  padding: 1rem 2rem;
 }
 
 ol {
-    list-style  :   decimal inside none;
-    padding     :   1rem;
+  list-style: decimal inside none;
+  padding: 1rem;
 }
 
 dl {
-    border         :   3px solid #ddd3bf;
-    border-radius  :   4px;
-    margin         :   2rem 0;
-    padding        :   1rem;
-    display        :   inline-block;
+  border: 3px solid #ddd3bf;
+  border-radius: 4px;
+  margin: 2rem 0;
+  padding: 1rem;
+  display: inline-block;
 }
 
 dt {
-    margin  :   0.6666666667rem 0;
-    color   :   #EF8A84;
+  margin: 0.6666666667rem 0;
+  color: #EF8A84;
 }
 
 dd {
-    text-indent  :   1em;
+  text-indent: 1em;
 }
 
 progress {
-    display  :   block;
-    margin   :   2rem 0;
+  display: block;
+  margin: 2rem 0;
 }
 
 meter {
-    display  :   block;
+  display: block;
 }
 
 * {
-    color        :   black;
-    box-sizing   :   border-box;
-    font-family  :   "PT Mono", "Courier New";
+  color: black;
+  box-sizing: border-box;
+  font-family: "PT Mono", "Courier New";
 }
 
 html {
-    background-color  :   #FFF3EB;
+  background-color: #FFF3EB;
 }
 
 body {
-    width    :   60%;
-    margin   :   0 auto;
-    padding  :   1rem;
+  width: 60%;
+  margin: 0 auto;
+  padding: 1rem;
 }
 
 img {
-    border   :   0;
-    display  :   block;
-    width    :   100%;
-    margin   :   2rem 0;
-    padding  :   1rem 0;
+  border: 0;
+  display: block;
+  width: 100%;
+  margin: 2rem 0;
+  padding: 1rem 0;
 }
 
 div {
-    padding  :   0;
-    margin   :   0;
+  padding: 0;
+  margin: 0;
 }
 
 hr {
-    border         :   none;
-    border-bottom  :   3px solid #ddd3bf;
-    margin         :   2rem 0;
+  border: none;
+  border-bottom: 3px solid #ddd3bf;
+  margin: 2rem 0;
 }
 
 form {
-    border         :   3px solid #ddd3bf;
-    padding        :   1rem;
-    border-radius  :   4px;
-    display        :   inline-block;
-    align-items    :   center;
+  border: 3px solid #ddd3bf;
+  padding: 1rem;
+  border-radius: 4px;
+  display: inline-block;
+  align-items: center;
 }
 
-button,
-input[type=button] {
-    display           :   inline-block;
-    border            :   3px solid #ddd3bf;
-    border-radius     :   4px;
-    font-size         :   inherit;
-    font-weight       :   bold;
-    color             :   black;
-    background-color  :   #ddd3bf;
-    padding           :   0.25rem;
-    margin-left       :   0;
-    margin-top        :   1rem;
+button, input[type=button] {
+  display: inline-block;
+  border: 3px solid #ddd3bf;
+  border-radius: 4px;
+  font-size: inherit;
+  font-weight: bold;
+  color: black;
+  background-color: #ddd3bf;
+  padding: 0.25rem;
+  margin-left: 0;
+  margin-top: 1rem;
 }
 
-input,
-textarea {
-    font-family    :   inherit;
-    font-size      :   inherit;
-    line-height    :   inherit;
-    margin         :   1rem 0;
-    padding        :   0.5rem;
-    border-radius  :   4px;
-    display        :   block;
+input, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  border-radius: 4px;
+  display: block;
 }
 
 textarea {
-    margin-bottom  :   2rem;
-    border         :   3px solid #EF8A84;
-    border-width   :   3px;
+  margin-bottom: 2rem;
+  border: 3px solid #EF8A84;
+  border-width: 3px;
 }
 
 label {
-    padding         :   1rem;
-    margin          :   2rem;
-    padding-left    :   0;
-    padding-bottom  :   0.3333333333rem;
-    margin-bottom   :   0.6666666667rem;
-    margin-left     :   0;
+  padding: 1rem;
+  margin: 2rem;
+  padding-left: 0;
+  padding-bottom: 0.3333333333rem;
+  margin-bottom: 0.6666666667rem;
+  margin-left: 0;
 }
 
 select {
-    font-family       :   inherit;
-    font-size         :   inherit;
-    background-color  :   inherit;
-    border            :   3px solid #ddd3bf;
-    border-radius     :   4px;
-    margin            :   2rem;
-    padding           :   0.3333333333rem;
-    padding-left      :   0;
-    margin-left       :   0;
+  font-family: inherit;
+  font-size: inherit;
+  background-color: inherit;
+  border: 3px solid #ddd3bf;
+  border-radius: 4px;
+  margin: 2rem;
+  padding: 0.3333333333rem;
+  padding-left: 0;
+  margin-left: 0;
 }
 
-input,
-input[type=reset],
-input[type=submit] {
-    background-color  :   inherit;
-    border            :   3px solid #ddd3bf;
+input, input[type=reset], input[type=submit] {
+  background-color: inherit;
+  border: 3px solid #ddd3bf;
 }
 
 object {
-    display  :   inline-block;
-    padding  :   1rem 0;
+  display: inline-block;
+  padding: 1rem 0;
 }
 
 footer {
-    margin   :   2rem 0;
-    padding  :   1rem 0;
+  margin: 2rem 0;
+  padding: 1rem 0;
 }
 
 time {
-    text-decoration  :   underline;
-    font-weight      :   bold;
-    color            :   #ddd3bf;
+  text-decoration: underline;
+  font-weight: bold;
+  color: #ddd3bf;
 }
 
 fieldset {
-    border   :   none;
-    padding  :   calc(1rem + 3px);
+  border: none;
+  padding: calc(1rem + 3px);
 }
-
 
 /*# sourceMappingURL=a.css.map */
